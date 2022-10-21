@@ -105,6 +105,20 @@
     align-items: center;
   }
 
+  .gumballcon{
+    width:79.5%;
+    height: fit-content;
+    text-align: center;
+    background-color: blanchedalmond;
+    border-style: solid;
+    padding: 5px;
+    font-size: large;
+    padding: 20px;
+    margin-left: 9%;
+    margin-bottom: 2%;
+    box-shadow: 1px 1px 1px 5px rgba(7, 7, 7, 0.416);
+  }
+
   .eightcon{
     width:79.5%;
     height: fit-content;
@@ -141,12 +155,25 @@
     padding: 5px;
     padding: 10px;
     margin-left: 45.4%;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
     margin-top: -1%;
     box-shadow: 1px 1px 1px 5px rgba(7, 7, 7, 0.416);
   }
 
-  
+  .gumLinks{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding:5px;
+  }
+
+.gitLinkGum{
+  margin-right: .5%;
+}
+
+.tubeLinkGum{
+  margin-left: .5%;
+}
 
   .eightLinks{
     display: flex;
